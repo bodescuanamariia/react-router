@@ -145,16 +145,19 @@ ul {
   display: inline-block;
   letter-spacing: var(--letterSpacing);
 }
+
 .btn:hover {
   background: var(--primary-700);
   box-shadow: var(--shadow-3);
 }
+
 .section {
   padding: 2rem 0;
   width: 90vw;
   max-width: var(--max-width);
   margin: 0 auto;
 }
+
 .navbar {
   width: 90vw;
   max-width: var(--max-width);
@@ -162,21 +165,24 @@ ul {
   display: flex;
   gap: 1rem;
 }
+
 .active {
   color: var(--primary-500);
 }
+
 .products article {
   margin-bottom: 1rem;
 }
+
 .products h5 {
   margin-bottom: 0;
 }
+
 .product img {
   width: 200px;
   height: 150px;
 }
 
-/* form */
 .form {
   width: 90vw;
   max-width: 400px;
@@ -186,6 +192,7 @@ ul {
   padding: 2rem 2.5rem;
   margin: 3rem 0;
 }
+
 .form-label {
   display: block;
   font-size: var(--small-text);
@@ -193,6 +200,7 @@ ul {
   text-transform: capitalize;
   letter-spacing: var(--letterSpacing);
 }
+
 .form-input,
 .form-textarea {
   width: 100%;
@@ -211,13 +219,12 @@ ul {
   font-family: inherit;
   color: var(--grey-400);
 }
-
-/* alert */
 .form-alert {
   color: var(--red-dark);
   letter-spacing: var(--letterSpacing);
   text-transform: capitalize;
 }
+/* alert */
 
 @keyframes spinner {
   to {

@@ -20,8 +20,8 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="products" element={<Products />} />
           <Route path="products/:productId" element={<SingleProduct />} />
-          <Route path="login" element={<Login setUser={setUser} />} />
-          <Route path="dashboard" element={<Dashboard user={user} />} />
+          <Route path="login" element={<Login />} />
+          <Route path="dashboard" element={<Dashboard />} />
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
