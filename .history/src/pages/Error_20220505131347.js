@@ -5,9 +5,7 @@ const Error = () => {
     <section className="section">
       <h2>404</h2>
       <p>Page not found</p>
-      <Link to="/" className="btn">
-        Back home
-      </Link>
+      <Link to="/">Back home</Link>
     </section>
   );
 };
