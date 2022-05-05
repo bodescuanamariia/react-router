@@ -145,8 +145,3 @@ ul {
   display: inline-block;
   letter-spacing: var(--letterSpacing);
 }
-
-.btn:hover {
-  background: var(--primary-700);
-  box-shadow: var(--shadow-3);
-}
