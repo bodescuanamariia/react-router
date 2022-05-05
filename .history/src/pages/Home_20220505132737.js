@@ -4,11 +4,11 @@ import Navbar from "../components/Navbar";
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <section className="section">
-        <Outlet />
-      </section>
-    </>
+    <Navbar />
+    <section className="section">
+      <Outlet />
+    </section>
   );
+    </>
 };
 export default Home;
