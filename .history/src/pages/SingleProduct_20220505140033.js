@@ -5,8 +5,7 @@ const SingleProduct = () => {
 
   return (
     <section className="section product">
-      <h4>{productId}</h4>
-      <Link to="/products">back to products</Link>
+      <h2>single product</h2>
     </section>
   );
 };
