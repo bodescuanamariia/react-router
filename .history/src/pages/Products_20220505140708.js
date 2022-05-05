@@ -11,7 +11,7 @@ const Products = () => {
             <article key={product.id}>
               {" "}
               {product.name}
-              <Link to={`/products/${product.id}`}>more info</Link>{" "}
+              <Link to={`/products/${product.id}`}> more info</Link>{" "}
             </article>
           );
         })}

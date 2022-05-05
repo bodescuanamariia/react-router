@@ -3,13 +3,11 @@ import products from "../data";
 
 const SingleProduct = () => {
   const { productId } = useParams();
-  const product = products.find((product) => product.id === productId);
-  const { image, name } = product;
+  const product = products.map((product) => product.id === productId);
 
   return (
     <section className="section product">
-      <img src={image} alt={name} />
-      <h5>{productId}</h5>
+      <h4>{productId}</h4>
       <Link to="/products">back to products</Link>
     </section>
   );
